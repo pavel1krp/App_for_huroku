@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="App">
       <button onClick={onClickHandler}>Delete</button>
-      <button onClick={showPostHandler}>Delete</button>
+      <button onClick={showPostHandler}>Add</button>
       <ul>
       {state.map(el =>{
         return(
